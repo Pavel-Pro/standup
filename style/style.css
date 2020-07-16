@@ -58,7 +58,15 @@ a {
 }
 .header {
 	height: 80vh;
-	background-color: rgb(0, 0, 0);
+	background-image: url(../images/bg_mazur.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+img {
+	position: absolute;
+	bottom: 0;
+	right: 25%;
 }
 .header_wrap {
 	height: 80vh;
