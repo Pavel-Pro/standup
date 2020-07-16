@@ -45,6 +45,9 @@
 button {
 	border: none;
 }
+a {
+	text-decoration: none;
+}
 /*Шапка сайта*/
 .body {
 	font-family: Roboto;
@@ -119,4 +122,10 @@ td a {
     color: rgb(241, 28, 17);
     background: none;
     border: 1px solid rgb(241, 28, 17);;
+}
+tr:nth-child(2n + 3) {
+	background-color: rgb(105, 0, 0, 0.4);
+}
+tr:nth-child(2n):hover {
+	background-color: rgb(105, 0, 0);
 }
