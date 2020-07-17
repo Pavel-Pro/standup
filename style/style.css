@@ -197,7 +197,10 @@ tr:nth-child(n+2):hover {
 		height: 80%;
 		bottom: 0;
 		right: 10%;
-}
+	}
+	img {
+    	height: 100%;
+	}
 	.header__title {
 		font-size: 40px;
 		line-height: 80px;
@@ -208,10 +211,8 @@ tr:nth-child(n+2):hover {
 	}
 }
 @media screen and (max-width: 1008px) {
-	.img__wrap {
-		height: 80%;
-		bottom: 0;
-		right: 5%;
+	img {
+	    height: 100%;
 	}
 	.header__title {
 		font-size: 30px;
@@ -223,6 +224,25 @@ tr:nth-child(n+2):hover {
 	}
 }
 @media screen and (max-width: 740px) {
+	.img__wrap {
+		height: 80%;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+	.header_wrap {
+		height: 80vh;
+		width: 50%;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-end;
+	}
+	.header__title {
+		margin-top: 150px;
+		font-size: 25px;
+		line-height: 40px;
+		letter-spacing: 0;
+	}
 	caption {
 		height: 120px;
 		font-size: 30px;
@@ -236,5 +256,19 @@ tr:nth-child(n+2):hover {
 	}
 	.btn__order {
 	    font-size: 15px;
+	}
+}
+@media screen and (max-width: 520px) {
+	.wrapper {
+		margin: auto 0;
+	}
+	.img__wrap {
+		height: 100%;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+	}
+	img {
+	    height: 100%;
 	}
 }
