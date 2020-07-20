@@ -262,6 +262,15 @@ tr:nth-child(n+2):hover {
 	.wrapper {
 		margin: auto 0;
 	}
+	.header {
+		height: 80vh;
+		background: none;
+		background-color: rgb(0, 0, 0);
+		background-image: url(../images/mob_kirill_mazur.png);
+		background-repeat: no-repeat;
+		background-blend-mode: lighten;
+		background-size: cover;
+	}
 	.img__wrap {
 		height: 100%;
 		bottom: 0;
@@ -269,6 +278,15 @@ tr:nth-child(n+2):hover {
 		width: 100%;
 	}
 	img {
-	    height: 100%;
+	    display: none;
+	}
+	.header_wrap {
+		padding-top: 50px;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	.header__title {
+		font-size: 25px;
 	}
 }
