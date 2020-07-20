@@ -282,7 +282,7 @@ tr:nth-child(n+2):hover {
 	    display: none;
 	}
 	.header_wrap {
-		padding-bottom: 50px;
+		padding-bottom: 35px;
 		width: 100%;
 		flex-direction: column;
 		justify-content: flex-end;
