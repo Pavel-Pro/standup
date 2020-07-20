@@ -263,7 +263,6 @@ tr:nth-child(n+2):hover {
 		margin: auto 0;
 	}
 	.header {
-		height: 80vh;
 		background: none;
 		background-color: rgb(0, 0, 0);
 		background-image: url(../images/mob_kirill_mazur.png);
