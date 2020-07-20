@@ -270,6 +270,7 @@ tr:nth-child(n+2):hover {
 		background-repeat: no-repeat;
 		background-blend-mode: lighten;
 		background-size: cover;
+		background-position: center;
 	}
 	.img__wrap {
 		height: 100%;
