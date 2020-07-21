@@ -49,6 +49,16 @@ a {
 	text-decoration: none;
 }
 /*Шапка сайта*/
+/*Анимация h1 начало*/
+@keyframes bouns {
+	from {
+		transform: rotate(-90deg) translate(0, -350px);
+	}
+	to {
+		transform: rotate(0deg)
+	}
+}
+/*Конец h1 анимации*/
 .body {
 	font-family: Roboto;
 	color: rgb(255, 255, 255);
@@ -88,6 +98,8 @@ img {
 	font-weight: 900;
 	line-height: 100px;
 	letter-spacing: 2px;
+	animation-name: bouns;
+	animation-duration: 1.2s;
 }
 .header__text {
 	font-family: Playfair Display;
